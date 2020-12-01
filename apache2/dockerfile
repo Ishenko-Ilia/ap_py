@@ -1,5 +1,5 @@
-FROM nginx:latest
-MAINTAINER ishenko
+#FROM nginx:latest
+#MAINTAINER ishenko
 LABEL Description="apache2"
 ENV DEBIAN_FRONTEND=noniteractive
 RUN apt update
